@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="659dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="76dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="THIS EVENT IS ANYTHING BUT VISUAL, EVENTS LIKE THE URBANGLOW - A FASHION SHOW, RAMP WALKS WITH STAR STUDDED ENTERTAINMENT NIGHTS MAKE IT ALL THE MORE ALLURING." />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="INDIRA GANDHI INSTITLITE OF TECHNOLOGY, SARANG ANNOUNCES ITS VERY OWN TECHNICAL AND CULTURAL FESTIVAL - TECHNOVATION FROM 22ND MAR - 24TH MAR 2024, KNOWN FOR BEING ONE OF THE LARGEST TECHNICAL AND CULTURAL FEST BY ONE OF ODISHA'S PREMIERE TECHNICAL INSTITUTIONS, THIS FUN STUDENT-RUN EVENT LETS PARTICIPANTS DEMONSTRATE THEIR KNOWLEDGE BASE, RESOURCEFULNESS, SPARK INOVATION AND ENCOURAGE UNIQUE AND INVENTIVE IDEAS."/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="230dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="THIS EVENT IS ANYTHING BUT VISUAL, EVENTS LIKE THE URBANGLOW - A FASHION SHOW, RAMP WALKS WITH STAR STUDDED ENTERTAINMENT NIGHTS MAKE IT ALL THE MORE ALLURING." />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

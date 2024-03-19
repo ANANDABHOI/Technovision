@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".contact">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="182dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Contact Us"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="79dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="30dp"
+
+            app:srcCompat="@drawable/img"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="72dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/con"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="74dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/email"
+            tools:layout_editor_absoluteX="266dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="85dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="30dp"
+            android:text="Location         Indira Gandhi Institute of Technology"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="108dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="30dp"
+            android:text="Phone no.        +91 7894738794"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="128dp"
+            android:layout_height="101dp"
+            android:layout_marginLeft="30dp"
+            android:text="E-mail                          technovaitonigit@gmail.com"
+            tools:layout_editor_absoluteX="279dp"
+            tools:layout_editor_absoluteY="93dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="CHIEF CO-ORDINATOR"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="209dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="159dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="60dp"
+            android:text="DY. CHIEF CO-ORDINATOR"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="209dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+
+            android:text="SANAT KAR
++91 7894738794"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="254dp" />
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="168dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="60dp"
+            android:text="SUVRANSU SAHOO
++91 9114132300
+SHRIVALLI DAS
++91 6371343141"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="254dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="410dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="6dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout6"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="163dp"
+            android:layout_height="27dp"
+            android:text="EVENT CO-ORDINATOR"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="363dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="160dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="45dp"
+            android:text="SPONSORSHIP CO-ORDINATOR"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="360dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="107dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="157dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="10dp"
+            android:text="SUBHASIS PATRA
++91 7847068419
+SMRUTISHREYA MOHANTY
++91 7847826581"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="404dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="157dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="45dp"
+            android:text="NISHANT KUMAR BEHERA
++91 7008766118
+    LIPSA MOHAPATRA
++91 9348964719"
+            tools:layout_editor_absoluteX="245dp"
+            tools:layout_editor_absoluteY="404dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="88dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/fasebook" />
+
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:layout_width="88dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/insta1_fotor_bg_remover_202403190843" />
+
+        <ImageButton
+            android:id="@+id/imageButton21"
+            android:layout_width="88dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/twi" />
+
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:layout_width="88dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/youtub1" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
